@@ -1,0 +1,75 @@
+#gameboard {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url('in.jpg'); /* 添加背景图片路径 */
+  background-size: cover;
+}
+
+
+.head {
+  width: 30px;
+  height: 30px;
+  background-image: url('head.jpg'); /*頭的路径 */
+  background-size: cover;
+  position: absolute;
+}
+
+.body {
+  width: 30px;
+  height: 30px;
+  background-image: url('body.jpg'); /* 身體的路径 */
+  background-size: cover;
+  position: absolute;
+}
+.food {
+  width: 40px;
+  height: 40px;
+  background-image: url('apple.png'); /*蘋果路徑 */
+  background-size: cover;
+  position: absolute;
+}
+
+.candy{
+  width: 40px;
+  height: 40px;
+  background-image: url('candy.png'); 
+  background-size: cover;
+  position: absolute;
+}
+
+#scoreboard {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+
+#startButton {
+  display: block;
+  margin: 20px auto 10px;
+  position: absolute;
+  background-image: url('start.png'); /* 添加背景图片路径 */
+  background-size: cover;
+  top: 26px;
+  left: 570px;
+  width: 270px;
+  height: 90px;
+}
+
+#outerContainer {
+  position: absolute;
+  width: 1700px; /* 根据需要设置容器的宽度 */
+  height: 700px; /* 根据需要设置容器的高度 */
+  background-image: url('out.jpg'); /* 添加背景图片路径 */
+  background-size: cover;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
